@@ -1,0 +1,61 @@
+body {
+  padding: 0;
+  margin:0;
+  font-family: "Microsoft YaHei UI Light";
+}
+.qxs-icon {
+  height: 40px;
+  width: 50%;
+  padding-left: 12%;
+  border: 0;
+  border-bottom: solid 1px lavender;
+}
+.background{
+  background: url("../../assets/images/back.jpg") no-repeat;
+  background-size: 100% 100%;
+  width:100%;
+  height:100%;  /**宽高100%是为了图片铺满屏幕 */
+  z-index:-1;
+  position: absolute;
+}
+.login-front{
+  text-align: center;
+  width: 40%;
+  height: 20%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index:1;
+}
+.back-opacity {
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  opacity:0.5;
+}
+.login_user {
+  background: url("../../assets/images/ic_user.png") no-repeat;
+  background-size: 20px 20px;
+  background-position: 8%;
+  border:0.5px solid #378888;
+  margin-top: 10px; margin-bottom:10px;
+}
+.login_password {
+  background: url("../../assets/images/ic_password.png") no-repeat;
+  background-size: 20px 20px;
+  background-position: 8%;
+  margin-bottom: 20px;
+  border:0.5px solid #378888;
+  margin-top: 10px; margin-bottom:10px;
+}
+.login_eye{
+  width:35px;
+  height:20px;
+  position: absolute;
+  margin-top: 22px;
+  margin-left: -35px;
+}
+.login_btn {
+  width: 50%;
+  font-size: 15px;
+}
